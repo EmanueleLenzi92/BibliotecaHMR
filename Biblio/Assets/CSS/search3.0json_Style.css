@@ -1,0 +1,189 @@
+.selectize-input {
+    width: 45%;
+    float: left !important;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    /* preso dal CANE */
+    /*width: 36px;*/
+    height: 24px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 1px;
+    margin-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    border: 1px solid #E43972;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #CCCCCC, -1px -1px 1px #EEEEEE;
+    text-decoration: none;
+    /*text-align: right;*/
+    font-size: 14px;
+    color: #202020;
+}
+
+.selectize-input:hover { /* preso dal CANE */
+    box-shadow: 2px 2px 1px #CCCCCC, -2px -2px 1px #EEEEEE;
+}
+
+#title { /* preso dal CANE */
+    /*width: 36px;*/
+    height: 24px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 1px;
+    margin-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    border: 1px solid #E43972;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #CCCCCC, -1px -1px 1px #EEEEEE;
+    text-decoration: none;
+    /*text-align: right;*/
+    font-size: 14px;
+    color: #202020;
+}
+
+#title:hover { /* preso del CANE */
+    box-shadow: 2px 2px 1px #CCCCCC, -2px -2px 1px #EEEEEE;
+    cursor: text;
+}
+
+#title:focus { /* preso dal CANE */
+    outline: 0;
+}
+
+.button { /* preso dal CANE */
+    /*width: 24px;*/
+    height: 24px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 1px;
+    margin-bottom: 2px; /* original margin-bottom: 4px; */
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    border: 1px solid #E43972;
+    border-radius: 3px;
+    background-color: #E0E0E0;
+    box-shadow: 1px 1px 1px #CCCCCC, -1px -1px 1px #EEEEEE;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #202020;
+}
+
+.seeCatalogCard {
+	border: 1px solid #E43972;
+    border-radius: 3px;
+	cursor: pointer;
+	background-color: #E0E0E0 !important;
+    padding: 1px 6px;
+}
+
+.fa-eye{color:black !important; }
+
+.button:hover {
+    cursor: pointer;
+    /* preso dal CANE */
+    /*width: 26px;*/
+
+}
+
+.pageActive {
+    text-decoration: underline;
+}
+
+.deletePeople, .deleteInstitution {
+    float: left;
+}
+
+#result, #Risultati, #azzeraRisultati {
+    display: none;
+}
+
+#result {
+    clear: both;
+}
+
+#Risultati {
+    color: #e43972;
+    font-size: 20px;
+    font-weight: bold;
+    clear: both;
+    margin: auto;
+    margin-right: 10px;
+}
+
+#resultHead-container, #filterHead-container {
+    float: left;
+    width: 100%;
+}
+
+#filterHead-container {
+    position: relative;
+}
+
+#filtersearch-title, #filtersearch-intervalyear, #search-inline {
+    float: left;
+}
+
+#filtersearch-title {
+    width: 50%;
+    margin-right: 7px;
+}
+
+#filtersearch-intervalyear {
+    width: 40%;
+}
+
+#filtersearch-intervalyear .selectize-input {
+    width: 35%;
+}
+
+#search-inline {
+    width: auto;
+    position: absolute;
+    bottom: 7px;
+    right: 0;
+}
+
+#resultHead-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#Risultati, #numberResults {
+    float: left;
+}
+
+#azzeraRisultati {
+    float: right;
+}
+
+#fa-search, #fa-addInst, #fa-delInst, #fa-addPeople, #fa-delPeople {
+    color: #202020;
+}
+
+#Persone, #Istituzioni, #TitolOpera, #IntervalloTempo {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-weight: normal;
+    clear: both;
+    font-size: 15px;
+}
+
+#Persone, #Istituzioni {
+    display: inline-block;
+}
+
+label[for=checkboxTitle], label[for=checkboxIterval], label[for=checkboxAdvanced] {
+    font-weight: normal;
+}

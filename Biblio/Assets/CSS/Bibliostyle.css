@@ -1,0 +1,94 @@
+.openDiv{cursor: pointer; font-weight: bold;}
+
+.marginBox{/*margin: 20px; padding: 10px;*/ margin-top:20px;}
+
+tr:nth-child(even) {background: #fff}
+tr:nth-child(odd) {background: #eee}
+table{
+	border-collapse: collapse;
+    text-align: center;
+	}
+
+#People-x, #Institution-x {margin-bottom: 30px }
+
+.fa {font-size: 20px !important}
+
+.submitLevel{
+	
+	color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+	cursor: pointer;
+	padding: .375rem .75rem;
+	border-radius: .25rem;
+}
+
+
+
+
+
+/*Menu*/
+	
+	
+
+    #barBiblioMenu ul{
+        padding: 0;
+        list-style: none;
+        background: #f2f2f2;
+    }
+    #barBiblioMenu ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+   #barBiblioMenu  ul li a{
+        display: block;
+        padding: 8px 25px;
+        color: #333;
+        text-decoration: none;
+    }
+    #barBiblioMenu ul li a:hover{
+        color: #fff;
+        background: #939393;
+    }
+    #barBiblioMenu ul li ul.dropdown{
+        min-width: 100%; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    #barBiblioMenu  ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+    }
+    #barBiblioMenu ul li ul.dropdown li{
+        display: block;
+    }
+
+
+/*Input*/
+
+input[type=text], select {
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+	min-height: 34px;
+	cursor: pointer;
+	background: #fff;
+}
+
+.date-day, .date-month, .date-year{width: 20% !important}

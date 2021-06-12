@@ -1,0 +1,30 @@
+.fa {
+    font-size: 15px !important;
+    color: #d81a68;
+}
+	
+.jstree-default a { 
+    white-space:normal !important;
+    height: auto; 
+}
+
+.jstree-anchor {
+    height: auto !important; /* text-indent: -26px !important; padding-left: 46px !important;*/
+}
+
+.jstree-default li > ins { 
+    vertical-align:top; 
+}
+
+.jstree-leaf {
+    height: auto;
+}
+
+.jstree-leaf a{
+    height: auto !important; /* text-indent: -26px !important; padding-left: 46px !important;*/
+}
+
+/* .jstree-icon {
+	position: relative;
+    left: 10px;
+} */
